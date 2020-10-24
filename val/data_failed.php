@@ -1,0 +1,1 @@
+pantalla de datos incorrectos

@@ -1,0 +1,1 @@
+registro de q&s en la ddbb

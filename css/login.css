@@ -1,0 +1,17 @@
+body {
+	background-color: #868F98;
+}
+
+form {
+	margin: auto;
+	width: 100%;
+	max-width: 500px;
+	background: #F3F3F3;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.login {
+	width: 15%;
+	height: 15%;
+}

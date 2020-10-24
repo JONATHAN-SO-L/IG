@@ -1,0 +1,14 @@
+.ir-arriba {
+  display: none;
+  padding: 15px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.flecha {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+}
