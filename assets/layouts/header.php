@@ -24,7 +24,7 @@
 </div>
 
 <form class="float-lg-right">
-  <a href="#" class="btn btn-danger btn-sm">CERRAR SESIÓN</a>
+  <a href="/ig/val/destroy.php" class="btn btn-danger btn-sm">CERRAR SESIÓN</a>
 </form>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
