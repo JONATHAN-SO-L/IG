@@ -3,26 +3,26 @@
 require '../../../../settings/conexion.php';
 
 //Querys
-$pub1 = "SELECT tipo FROM publicador1";
-$pub2 = "SELECT tipo FROM publicador2";
-$pub3 = "SELECT tipo FROM publicador3";
-$pub4 = "SELECT tipo FROM publicador4";
-$pub5 = "SELECT tipo FROM publicador5";
-$pub6 = "SELECT tipo FROM publicador6";
-$pub7 = "SELECT tipo FROM publicador7";
-$pub8 = "SELECT tipo FROM publicador8";
-$pub9 = "SELECT tipo FROM publicador9";
-$pub10 = "SELECT tipo FROM publicador10";
-$pub11 = "SELECT tipo FROM publicador11";
-$pub12 = "SELECT tipo FROM publicador12";
-$pub13 = "SELECT tipo FROM publicador13";
-$pub14 = "SELECT tipo FROM publicador14";
-$pub15 = "SELECT tipo FROM publicador15";
-$pub16 = "SELECT tipo FROM publicador16";
-$pub17 = "SELECT tipo FROM publicador17";
-$pub18 = "SELECT tipo FROM publicador18";
-$pub19 = "SELECT tipo FROM publicador19";
-$pub20 = "SELECT tipo FROM publicador20";
+$pub1 = "SELECT * FROM publicador1";
+$pub2 = "SELECT * FROM publicador2";
+$pub3 = "SELECT * FROM publicador3";
+$pub4 = "SELECT * FROM publicador4";
+$pub5 = "SELECT * FROM publicador5";
+$pub6 = "SELECT * FROM publicador6";
+$pub7 = "SELECT * FROM publicador7";
+$pub8 = "SELECT * FROM publicador8";
+$pub9 = "SELECT * FROM publicador9";
+$pub10 = "SELECT * FROM publicador10";
+$pub11 = "SELECT * FROM publicador11";
+$pub12 = "SELECT * FROM publicador12";
+$pub13 = "SELECT * FROM publicador13";
+$pub14 = "SELECT * FROM publicador14";
+$pub15 = "SELECT * FROM publicador15";
+$pub16 = "SELECT * FROM publicador16";
+$pub17 = "SELECT * FROM publicador17";
+$pub18 = "SELECT * FROM publicador18";
+$pub19 = "SELECT * FROM publicador19";
+$pub20 = "SELECT * FROM publicador20";
 
 $sql1 = mysqli_query($cn,$pub1);
 $sql2 = mysqli_query($cn,$pub2);

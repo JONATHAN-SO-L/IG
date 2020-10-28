@@ -9,7 +9,7 @@ function pub1() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador1'];
-	$sql1 = "INSERT INTO publicador1 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador1 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -22,7 +22,7 @@ function pub2() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador2'];
-	$sql1 = "INSERT INTO publicador2 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador2 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -35,7 +35,7 @@ function pub3() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador3'];
-	$sql1 = "INSERT INTO publicador3 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador3 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -48,7 +48,7 @@ function pub4() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador4'];
-	$sql1 = "INSERT INTO publicador4 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador4 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -61,7 +61,7 @@ function pub5() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador5'];
-	$sql1 = "INSERT INTO publicador5 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador5 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -74,7 +74,7 @@ function pub6() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador6'];
-	$sql1 = "INSERT INTO publicador6 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador6 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -87,7 +87,7 @@ function pub7() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador7'];
-	$sql1 = "INSERT INTO publicador7 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador7 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -100,7 +100,7 @@ function pub8() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador8'];
-	$sql1 = "INSERT INTO publicador8 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador8 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -113,7 +113,7 @@ function pub9() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador9'];
-	$sql1 = "INSERT INTO publicador9 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador9 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -126,7 +126,7 @@ function pub10() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador10'];
-	$sql1 = "INSERT INTO publicador10 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador10 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -139,7 +139,7 @@ function pub11() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador11'];
-	$sql1 = "INSERT INTO publicador11 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador11 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -152,7 +152,7 @@ function pub12() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador12'];
-	$sql1 = "INSERT INTO publicador12 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador12 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -165,7 +165,7 @@ function pub13() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador13'];
-	$sql1 = "INSERT INTO publicador13 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador13 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -178,7 +178,7 @@ function pub14() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador14'];
-	$sql1 = "INSERT INTO publicador14 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador14 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -191,7 +191,7 @@ function pub15() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador15'];
-	$sql1 = "INSERT INTO publicador15 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador15 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -204,7 +204,7 @@ function pub16() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador16'];
-	$sql1 = "INSERT INTO publicador16 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador16 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -217,7 +217,7 @@ function pub17() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador17'];
-	$sql1 = "INSERT INTO publicador17 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador17 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -230,7 +230,7 @@ function pub18() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador18'];
-	$sql1 = "INSERT INTO publicador18 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador18 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -243,7 +243,7 @@ function pub19() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador19'];
-	$sql1 = "INSERT INTO publicador19 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador19 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -256,7 +256,7 @@ function pub20() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador20'];
-	$sql1 = "INSERT INTO publicador20 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador20 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -269,7 +269,7 @@ function pub21() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador21'];
-	$sql1 = "INSERT INTO publicador21 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador21 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -282,7 +282,7 @@ function pub22() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador22'];
-	$sql1 = "INSERT INTO publicador22 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador22 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -295,7 +295,7 @@ function pub23() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador23'];
-	$sql1 = "INSERT INTO publicador23 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador23 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -308,7 +308,7 @@ function pub24() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador24'];
-	$sql1 = "INSERT INTO publicador24 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador24 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -321,7 +321,7 @@ function pub25() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador25'];
-	$sql1 = "INSERT INTO publicador25 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador25 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -334,7 +334,7 @@ function pub26() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador26'];
-	$sql1 = "INSERT INTO publicador26 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador26 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -347,7 +347,7 @@ function pub27() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador27'];
-	$sql1 = "INSERT INTO publicador27 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador27 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -360,7 +360,7 @@ function pub28() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador28'];
-	$sql1 = "INSERT INTO publicador28 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador28 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -373,7 +373,7 @@ function pub29() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador29'];
-	$sql1 = "INSERT INTO publicador29 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador29 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -386,7 +386,7 @@ function pub30() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador30'];
-	$sql1 = "INSERT INTO publicador30 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador30 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -399,7 +399,7 @@ function pub31() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador31'];
-	$sql1 = "INSERT INTO publicador31 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador31 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -412,7 +412,7 @@ function pub32() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador32'];
-	$sql1 = "INSERT INTO publicador32 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador32 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -425,7 +425,7 @@ function pub33() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador33'];
-	$sql1 = "INSERT INTO publicador33 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador33 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -438,7 +438,7 @@ function pub34() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador34'];
-	$sql1 = "INSERT INTO publicador34 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador34 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -451,7 +451,7 @@ function pub35() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador35'];
-	$sql1 = "INSERT INTO publicador35 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador35 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -464,7 +464,7 @@ function pub36() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador36'];
-	$sql1 = "INSERT INTO publicador36 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador36 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -477,7 +477,7 @@ function pub37() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador37'];
-	$sql1 = "INSERT INTO publicador37 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador37 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -490,7 +490,7 @@ function pub38() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador38'];
-	$sql1 = "INSERT INTO publicador38 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador38 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -503,7 +503,7 @@ function pub39() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador39'];
-	$sql1 = "INSERT INTO publicador39 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador39 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -516,7 +516,7 @@ function pub40() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador40'];
-	$sql1 = "INSERT INTO publicador40 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador40 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -529,7 +529,7 @@ function pub41() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador41'];
-	$sql1 = "INSERT INTO publicador41 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador41 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -542,7 +542,7 @@ function pub42() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador42'];
-	$sql1 = "INSERT INTO publicador42 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador42 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -555,7 +555,7 @@ function pub43() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador43'];
-	$sql1 = "INSERT INTO publicador43 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador43 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -568,7 +568,7 @@ function pub44() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador44'];
-	$sql1 = "INSERT INTO publicador44 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador44 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -581,7 +581,7 @@ function pub45() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador45'];
-	$sql1 = "INSERT INTO publicador45 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador45 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -594,7 +594,7 @@ function pub46() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador46'];
-	$sql1 = "INSERT INTO publicador46 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador46 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -607,7 +607,7 @@ function pub47() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador47'];
-	$sql1 = "INSERT INTO publicador47 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador47 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -620,7 +620,7 @@ function pub48() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador48'];
-	$sql1 = "INSERT INTO publicador48 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador48 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -633,7 +633,7 @@ function pub49() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador49'];
-	$sql1 = "INSERT INTO publicador49 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador49 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -646,7 +646,7 @@ function pub50() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador50'];
-	$sql1 = "INSERT INTO publicador50 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador50 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -659,7 +659,7 @@ function pub51() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador51'];
-	$sql1 = "INSERT INTO publicador51 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador51 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -672,7 +672,7 @@ function pub52() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador52'];
-	$sql1 = "INSERT INTO publicador52 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador52 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -685,7 +685,7 @@ function pub53() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador53'];
-	$sql1 = "INSERT INTO publicador53 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador53 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -698,7 +698,7 @@ function pub54() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador54'];
-	$sql1 = "INSERT INTO publicador54 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador54 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -711,7 +711,7 @@ function pub55() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador55'];
-	$sql1 = "INSERT INTO publicador55 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador55 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -724,7 +724,7 @@ function pub56() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador56'];
-	$sql1 = "INSERT INTO publicador56 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador56 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -737,7 +737,7 @@ function pub57() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador57'];
-	$sql1 = "INSERT INTO publicador57 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador57 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -750,7 +750,7 @@ function pub58() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador58'];
-	$sql1 = "INSERT INTO publicador58 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador58 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -763,7 +763,7 @@ function pub59() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador59'];
-	$sql1 = "INSERT INTO publicador59 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador59 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -776,7 +776,7 @@ function pub60() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador60'];
-	$sql1 = "INSERT INTO publicador60 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador60 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -789,7 +789,7 @@ function pub61() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador61'];
-	$sql1 = "INSERT INTO publicador61 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador61 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -802,7 +802,7 @@ function pub62() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador62'];
-	$sql1 = "INSERT INTO publicador62 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador62 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -815,7 +815,7 @@ function pub63() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador63'];
-	$sql1 = "INSERT INTO publicador63 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador63 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -828,7 +828,7 @@ function pub64() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador64'];
-	$sql1 = "INSERT INTO publicador64 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador64 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -841,7 +841,7 @@ function pub65() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador65'];
-	$sql1 = "INSERT INTO publicador65 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador65 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -854,7 +854,7 @@ function pub66() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador66'];
-	$sql1 = "INSERT INTO publicador66 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador66 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -867,7 +867,7 @@ function pub67() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador67'];
-	$sql1 = "INSERT INTO publicador67 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador67 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -880,7 +880,7 @@ function pub68() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador68'];
-	$sql1 = "INSERT INTO publicador68 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador68 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -893,7 +893,7 @@ function pub69() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador69'];
-	$sql1 = "INSERT INTO publicador69 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador69 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -906,7 +906,7 @@ function pub70() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador70'];
-	$sql1 = "INSERT INTO publicador70 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador70 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -919,7 +919,7 @@ function pub71() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador71'];
-	$sql1 = "INSERT INTO publicador71 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador71 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -932,7 +932,7 @@ function pub72() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador72'];
-	$sql1 = "INSERT INTO publicador72 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador72 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -945,7 +945,7 @@ function pub73() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador73'];
-	$sql1 = "INSERT INTO publicador73 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador73 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -958,7 +958,7 @@ function pub74() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador74'];
-	$sql1 = "INSERT INTO publicador74 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador74 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -971,7 +971,7 @@ function pub75() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador75'];
-	$sql1 = "INSERT INTO publicador75 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador75 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -984,7 +984,7 @@ function pub76() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador76'];
-	$sql1 = "INSERT INTO publicador76 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador76 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -997,7 +997,7 @@ function pub77() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador77'];
-	$sql1 = "INSERT INTO publicador77 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador77 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1010,7 +1010,7 @@ function pub78() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador78'];
-	$sql1 = "INSERT INTO publicador78 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador78 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1023,7 +1023,7 @@ function pub79() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador79'];
-	$sql1 = "INSERT INTO publicador79 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador79 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1036,7 +1036,7 @@ function pub80() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador80'];
-	$sql1 = "INSERT INTO publicador80 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador80 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1049,7 +1049,7 @@ function pub81() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador81'];
-	$sql1 = "INSERT INTO publicador81 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador81 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1062,7 +1062,7 @@ function pub82() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador82'];
-	$sql1 = "INSERT INTO publicador82 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador82 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1075,7 +1075,7 @@ function pub83() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador83'];
-	$sql1 = "INSERT INTO publicador83 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador83 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1088,7 +1088,7 @@ function pub84() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador84'];
-	$sql1 = "INSERT INTO publicador84 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador84 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1101,7 +1101,7 @@ function pub85() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador85'];
-	$sql1 = "INSERT INTO publicador85 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador85 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1114,7 +1114,7 @@ function pub86() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador86'];
-	$sql1 = "INSERT INTO publicador86 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador86 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1127,7 +1127,7 @@ function pub87() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador87'];
-	$sql1 = "INSERT INTO publicador87 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador87 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1140,7 +1140,7 @@ function pub88() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador88'];
-	$sql1 = "INSERT INTO publicador88 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador88 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1153,7 +1153,7 @@ function pub89() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador89'];
-	$sql1 = "INSERT INTO publicador89 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador89 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1166,7 +1166,7 @@ function pub90() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador90'];
-	$sql1 = "INSERT INTO publicador90 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador90 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1179,7 +1179,7 @@ function pub91() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador91'];
-	$sql1 = "INSERT INTO publicador91 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador91 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1192,7 +1192,7 @@ function pub92() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador92'];
-	$sql1 = "INSERT INTO publicador92 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador92 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1205,7 +1205,7 @@ function pub93() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador93'];
-	$sql1 = "INSERT INTO publicador93 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador93 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1218,7 +1218,7 @@ function pub94() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador94'];
-	$sql1 = "INSERT INTO publicador94 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador94 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1231,7 +1231,7 @@ function pub95() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador95'];
-	$sql1 = "INSERT INTO publicador95 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador95 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1244,7 +1244,7 @@ function pub96() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador96'];
-	$sql1 = "INSERT INTO publicador96 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador96 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1257,7 +1257,7 @@ function pub97() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador97'];
-	$sql1 = "INSERT INTO publicador97 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador97 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1270,7 +1270,7 @@ function pub98() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador98'];
-	$sql1 = "INSERT INTO publicador98 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador98 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1283,7 +1283,7 @@ function pub99() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador99'];
-	$sql1 = "INSERT INTO publicador99 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador99 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1296,7 +1296,7 @@ function pub100() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador100'];
-	$sql1 = "INSERT INTO publicador100 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador100 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1309,7 +1309,7 @@ function pub101() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador101'];
-	$sql1 = "INSERT INTO publicador101 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador101 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1322,7 +1322,7 @@ function pub102() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador102'];
-	$sql1 = "INSERT INTO publicador102 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador102 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1335,7 +1335,7 @@ function pub103() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador103'];
-	$sql1 = "INSERT INTO publicador103 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador103 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1348,7 +1348,7 @@ function pub104() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador104'];
-	$sql1 = "INSERT INTO publicador104 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador104 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1362,7 +1362,7 @@ function pub105() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador105'];
-	$sql1 = "INSERT INTO publicador105 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador105 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1375,7 +1375,7 @@ function pub106() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador106'];
-	$sql1 = "INSERT INTO publicador106 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador106 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1388,7 +1388,7 @@ function pub107() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador107'];
-	$sql1 = "INSERT INTO publicador107 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador107 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1401,7 +1401,7 @@ function pub108() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador108'];
-	$sql1 = "INSERT INTO publicador108 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador108 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1414,7 +1414,7 @@ function pub109() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador109'];
-	$sql1 = "INSERT INTO publicador109 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador109 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1427,7 +1427,7 @@ function pub110() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador110'];
-	$sql1 = "INSERT INTO publicador110 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador110 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1440,7 +1440,7 @@ function pub111() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador111'];
-	$sql1 = "INSERT INTO publicador111 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador111 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1453,7 +1453,7 @@ function pub112() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador112'];
-	$sql1 = "INSERT INTO publicador112 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador112 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1466,7 +1466,7 @@ function pub113() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador113'];
-	$sql1 = "INSERT INTO publicador113 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador113 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1479,7 +1479,7 @@ function pub114() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador114'];
-	$sql1 = "INSERT INTO publicador114 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador114 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1492,7 +1492,7 @@ function pub115() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador115'];
-	$sql1 = "INSERT INTO publicador115 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador115 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1505,7 +1505,7 @@ function pub116() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador116'];
-	$sql1 = "INSERT INTO publicador116 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador116 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1518,7 +1518,7 @@ function pub117() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador117'];
-	$sql1 = "INSERT INTO publicador117 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador117 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1531,7 +1531,7 @@ function pub118() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador118'];
-	$sql1 = "INSERT INTO publicador118 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador118 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1544,7 +1544,7 @@ function pub119() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador119'];
-	$sql1 = "INSERT INTO publicador119 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador119 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
@@ -1557,12 +1557,216 @@ function pub120() {
 	require '../../../../settings/conexion.php';
 
 	$nombre = $_POST['publicador120'];
-	$sql1 = "INSERT INTO publicador120 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+	$sql1 = "INSERT INTO publicador120 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL)";
 
 	$cn->query($sql1);
 
 	require '../../../../settings/close.php';
 
+}
+
+/***************************************************************************************************************
+*							Funciones para registrar a el tipo de publicador en la DDBB						   *
+***************************************************************************************************************/
+
+function tipo1() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo1'];
+	$sql = "INSERT INTO publicador1 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo2() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo2'];
+	$sql = "INSERT INTO publicador2 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo3() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo3'];
+	$sql = "INSERT INTO publicador3 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo4() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo4'];
+	$sql = "INSERT INTO publicador4 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo5() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo5'];
+	$sql = "INSERT INTO publicador5 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo6() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo6'];
+	$sql = "INSERT INTO publicador6 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo7() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo7'];
+	$sql = "INSERT INTO publicador7 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo8() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo8'];
+	$sql = "INSERT INTO publicador8 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo9() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo9'];
+	$sql = "INSERT INTO publicador9 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo10() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo10'];
+	$sql = "INSERT INTO publicador10 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo11() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo11'];
+	$sql = "INSERT INTO publicador11 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo12() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo12'];
+	$sql = "INSERT INTO publicador12 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo13() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo13'];
+	$sql = "INSERT INTO publicador13 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo14() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo14'];
+	$sql = "INSERT INTO publicador14 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo15() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo15'];
+	$sql = "INSERT INTO publicador15 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo16() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo16'];
+	$sql = "INSERT INTO publicador16 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo17() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo17'];
+	$sql = "INSERT INTO publicador17 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo18() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo18'];
+	$sql = "INSERT INTO publicador18 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo19() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo19'];
+	$sql = "INSERT INTO publicador19 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
+}
+
+function tipo20() {
+	require '../../../../settings/conexion.php';
+
+	$tipo = $_POST['tipo20'];
+	$sql = "INSERT INTO publicador20 (tipo) VALUES ('$tipo')";
+	$cn->query($sql);
+
+	require '../../../../settings/close.php';
 }
 
 /***************************************************************************************************************

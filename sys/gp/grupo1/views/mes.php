@@ -39,7 +39,7 @@ if (isset($_POST['ingresar'])) {
 	require '../../../../settings/conexion.php';
 
 	$mes = $_POST['mes'];
-	$query = "INSERT INTO $table1 (mes) VALUES ('$mes')";
+	$query = "INSERT INTO mes1 (mes) VALUES ('$mes')";
 
 	$cn->query($query);
 

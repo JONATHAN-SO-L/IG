@@ -5,7 +5,6 @@ $admin = "root";
 $pass = "";
 $ddbb = "ig";
 
-$table1 = "mes";
 $table2 = "q_n_s";
 $table3 = "usuarios";
 

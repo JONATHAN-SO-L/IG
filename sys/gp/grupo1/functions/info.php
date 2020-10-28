@@ -2,7 +2,7 @@
 
 // Consulta de mes a la DDBB
 require '../../../../settings/conexion.php';
-$sql = "SELECT * FROM $table1";
+$sql = "SELECT * FROM mes1";
 $query = mysqli_query ($cn,$sql);
 $rel = mysqli_fetch_array ($query);
 require '../../../../settings/close.php';

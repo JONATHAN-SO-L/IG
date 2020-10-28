@@ -143,7 +143,7 @@ function delete_pub20() {
 
 function delete_mes() {
 	require '../../../../settings/conexion.php';
-	$sql = "TRUNCATE $table1";
+	$sql = "TRUNCATE mes1";
 	$rs = mysqli_query ($cn,$sql);
 	require '../../../../settings/close.php';
 }
