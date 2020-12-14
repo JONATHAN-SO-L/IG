@@ -2,7 +2,7 @@
 
 function delete_pub1() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador1 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador1 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
@@ -10,133 +10,133 @@ function delete_pub1() {
 
 function delete_pub2() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador2 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador2 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub3() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador3 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador3 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub4() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador4 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador4 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub5() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador5 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador5 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub6() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador6 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador6 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub7() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador7 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador7 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub8() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador8 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador8 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub9() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador9 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador9 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub10() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador10 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador10 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub11() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador11 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador11 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub12() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador12 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador12 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub13() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador13 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador13 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub14() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador14 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador14 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub15() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador15 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador15 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub16() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador16 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador16 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub17() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador17 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador17 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub18() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador18 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador18 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub19() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador19 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador19 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }
 
 function delete_pub20() {
 	require '../../../../settings/conexion.php';
-	$pub = "UPDATE publicador20 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL, tipo = NULL";
+	$pub = "UPDATE publicador20 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";
 	$rel = mysqli_query ($cn,$pub);
 	require '../../../../settings/close.php';
 }

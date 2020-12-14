@@ -19,7 +19,7 @@
 
 	<?php include '../../../../assets/layouts/header.php'; ?><br>
 
-	<h2 class="titulo_panel"><strong>Panel del Grupo 1</strong></h2><br>
+	<h2 class="titulo_panel"><strong>Panel del <?php echo $_SESSION['usuario']; ?></strong></h2><br>
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 

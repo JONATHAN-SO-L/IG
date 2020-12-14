@@ -11,11 +11,11 @@ function footer() {
 	include "../../../../../assets/layouts/footer.php";
 }
 
-$existencia = "SELECT tipo FROM publicador1";
+$existencia = "SELECT horas FROM publicador1";
 $query = mysqli_query ($cn,$existencia);
 $arreglo = mysqli_fetch_array ($query);
 
-switch ($arreglo['tipo']) {
+switch ($arreglo['horas']) {
 
 	case "":
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/pubs/pub1/registro.php">';

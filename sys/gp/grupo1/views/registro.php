@@ -280,64 +280,44 @@ require '../../functions/publicadores.php';
 if (isset($_POST['registrar'])) {
 	
 	pub1();
-	tipo1();
 
 	pub2();
-	tipo2();
 	
 	pub3();
-	tipo3();
 	
 	pub4();
-	tipo4();
 	
 	pub5();
-	tipo5();
 	
 	pub6();
-	tipo6();
 	
 	pub7();
-	tipo7();
 	
 	pub8();
-	tipo8();
 	
 	pub9();
-	tipo9();
 	
 	pub10();
-	tipo10();
 	
 	pub11();
-	tipo11();
 	
 	pub12();
-	tipo12();
 	
 	pub13();
-	tipo13();
 	
 	pub14();
-	tipo14();
 	
 	pub15();
-	tipo15();
 	
 	pub16();
-	tipo16();
 	
 	pub17();
-	tipo17();
 	
 	pub18();
-	tipo18();
 	
 	pub19();
-	tipo19();
 	
 	pub20();
-	tipo20();
 
 	echo "<script>alert('PUBLICADORES GUARDADOS CORRECTAMENTE')</script>";
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/functions/info.php">';
