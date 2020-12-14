@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFORME DE GRUPO</title>
+	<title>PANEL DE ADMINISTRACIÓN</title>
 	<link rel="icon" href="/ig/assets/img/logo.png" type="image/icon">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
