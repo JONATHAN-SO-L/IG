@@ -1,4 +1,4 @@
-Versión: 0.0.6
+Versión: 0.1.0
 Clasificación: Alpha
 Estado: En desarrollo
-Fecha de última actualización: 27-10-2020
+Fecha de última actualización: 13-12-2020
