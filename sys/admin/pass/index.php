@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="container" align="center">
-			<a href="/ig/sys/admin/pass/passsuper.php"><button style="margin: 10px" type="sumbit" class="btn btn-dark btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong>SUPERVISOR</strong></button></a>
+			<a href="/ig/sys/admin/pass/passsuper.php"><button style="margin: 10px" type="sumbit" class="btn btn-dark btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong>SECRETARIO</strong></button></a>
 		</div><br>
 	</div>
 

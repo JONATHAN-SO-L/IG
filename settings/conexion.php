@@ -1,8 +1,8 @@
 <?php
 
 $host = "localhost";
-$admin = "admin";
-$pass = "admin";
+$admin = "root";
+$pass = "";
 $ddbb = "ig";
 
 $table2 = "q_n_s";

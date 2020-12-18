@@ -24,7 +24,7 @@
 		<div class="container pass form-inline"><br>
 			<form method="POST" action="#" class="form-inline">
 				<div class="container">
-					<strong><h3>CAMBIO DE CONTRASEÑA DEL GRUPO 1</h3></strong>
+					<strong><h3>CAMBIO DE CONTRASEÑA DEL GRUPO 2</h3></strong>
 				</div>
 				<div class="container form-inline">
 					<label style="margin: 20px;">CONTRASEÑA ANTIGUA:</label>
@@ -59,7 +59,7 @@ if (isset($_POST['guardar'])) {
 	$cn->query("UPDATE usuarios SET contrasena = '$pass_new' WHERE contrasena = '$pass_old'");
 
 	echo "<script>alert('CONTRASEÑA MODIFICADA CON ÉXITO')</script>";
-	
+
 	echo "<meta HTTP-EQUIV='REFRESH' CONTENT='0;URL=/ig/sys/admin/pass'>";
 
 	require "../../../settings/close.php";
