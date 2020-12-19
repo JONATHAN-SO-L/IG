@@ -56,28 +56,37 @@ if (isset($_POST['guardar'])) {
 	$pass_old = $_POST['old_password'];
 	$pass_new = $_POST['new_pass'];
 
-	$sql = "SELECT contrasena FROM $table3 WHERE contrasena = '$pass_old'";
+	$sql = "SELECT contrasena FROM $table3 WHERE contrasena = '$pass_old' AND usuario = 'secretario'";
 	$con = mysqli_query($cn, $sql);
 	$rel = mysqli_fetch_array($con);
 
 	if ($rel['contrasena'] == $pass_old) {
 
-		if ($pass_new == $rel['contrasena']) {
+		$query = "SELECT usuario FROM $table3 WHERE usuario = 'secretario'";
+		$action = mysqli_query ($cn, $query);
+		$usr = mysqli_fetch_array ($action);
 
-			echo "<script>alert('LA CONTRASEÑA NUEVA NO PUEDE SER IGUAL QUE LA ANTERIOR')</script>";
+		if ($usr['usuario'] = 'secretario') {
 
-		}	else {
+			if ($pass_new == $rel['contrasena']) {
 
-			$cn->query("UPDATE usuarios SET contrasena = '$pass_new' WHERE contrasena = '$pass_old'");
+				echo "<script>alert('LA CONTRASEÑA NUEVA NO PUEDE SER IGUAL QUE LA ANTERIOR')</script>";
 
-			echo "<script>alert('CONTRASEÑA MODIFICADA CON ÉXITO')</script>";
+			}	else {
 
-			echo "<meta HTTP-EQUIV='REFRESH' CONTENT='0;URL=/ig/sys/admin/pass'>";
+				$cn->query("UPDATE usuarios SET contrasena = '$pass_new' WHERE contrasena = '$pass_old' AND usuario = 'secretario'");
+
+				echo "<script>alert('CONTRASEÑA MODIFICADA CON ÉXITO')</script>";
+
+				echo "<meta HTTP-EQUIV='REFRESH' CONTENT='0;URL=/ig/sys/admin/pass'>";
+
+			}
 
 		}
+
 	}	else {
 
-		echo "<script>alert('LA CONTRASEÑA QUE INGRESASTE NO ES LA QUE TU USUARIO TENÍA')</script>";
+		echo "<script>alert('ESTE USUARIO NO CUENTA CON LA CONTRASEÑA QUE INGRESASTE, INTÉNTALO DE NUEVO')</script>";
 
 	}
 

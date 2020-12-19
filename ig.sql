@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.5deb2
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 26-10-2020 a las 04:20:44
--- Versión del servidor: 10.4.14-MariaDB
--- Versión de PHP: 7.4.9
+-- Servidor: localhost:3306
+-- Tiempo de generación: 19-12-2020 a las 14:12:22
+-- Versión del servidor: 10.3.25-MariaDB-0ubuntu0.20.04.1
+-- Versión de PHP: 7.4.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -2271,8 +2272,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_user`, `usuario`, `contrasena`, `tipo`) VALUES
-(1, 'admin', 'adminig2000', 'A'),
-(2, 'super', 'superig2000', 'S'),
+(1, 'admin', 'adminig', 'A'),
+(2, 'secretario', 'secretario', 'S'),
 (3, 'grupo1', 'grupo1', 'U'),
 (4, 'grupo2', 'grupo2', 'U'),
 (5, 'grupo3', 'grupo3', 'U'),
