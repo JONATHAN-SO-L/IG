@@ -1,5 +1,49 @@
 <?php
 
+session_start();
+
+if (isset($_SESSION['usuario'])) {
+
+	switch ($_SESSION['usuario']) {
+
+		case 'grupo2':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo3':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo4':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo5':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo6':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'secretario':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'admin':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+		
+		default:
+
+		break;
+	}
+	
+}	else {
+
+	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+}
+
 function delete_pub1() {
 	require '../../../../settings/conexion.php';
 	$pub = "UPDATE publicador1 SET publicaciones = NULL, videos =NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL";

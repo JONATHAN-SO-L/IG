@@ -1,3 +1,27 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['tipo'])) {
+
+	switch ($_SESSION['tipo']) {
+		case 'U':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+		
+		default:
+
+		break;
+	}
+}
+
+if (isset($_SESSION['usuario'])) {}	
+	else {
+	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

@@ -1,3 +1,61 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['tipo'])) {
+
+	switch ($_SESSION['tipo']) {
+		case 'A':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/admin">';
+		break;
+
+		case 'S':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/admin">';
+		break;
+		
+		default:
+
+		break;
+	}
+}
+
+if (isset($_SESSION['usuario'])) {
+
+	switch ($_SESSION['usuario']) {
+
+		case 'grupo1':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/functions/info.php">';
+		break;
+
+		case 'grupo2':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo2/functions/info.php">';
+		break;
+
+		case 'grupo3':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo3/functions/info.php">';
+		break;
+
+		case 'grupo4':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo4/functions/info.php">';
+		break;
+
+		case 'grupo5':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo5/functions/info.php">';
+		break;
+
+		case 'grupo6':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo6/functions/info.php">';
+		break;
+		
+		default:
+
+		break;
+	}
+	
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

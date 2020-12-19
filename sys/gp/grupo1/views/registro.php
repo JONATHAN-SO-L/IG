@@ -24,7 +24,7 @@
 			<h3 class="titulo_informe"><center><strong>REGISTRO DE PUBLICADORES</strong></center></h3><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 1:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador1" name="publicador1" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador1" name="publicador1" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo1" name="tipo1">
@@ -36,7 +36,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 2:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador2" name="publicador2" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador2" name="publicador2" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo2" name="tipo2">
@@ -48,7 +48,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 3:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador3" name="publicador3" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador3" name="publicador3" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo3" name="tipo3">
@@ -60,7 +60,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 4:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador4" name="publicador4" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador4" name="publicador4" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo4" name="tipo4">
@@ -72,7 +72,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 5:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador5" name="publicador5" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador5" name="publicador5" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo5" name="tipo5">
@@ -84,7 +84,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 6:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador6" name="publicador6" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador6" name="publicador6" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo6" name="tipo6">
@@ -96,7 +96,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 7:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador7" name="publicador7" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador7" name="publicador7" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo7" name="tipo7">
@@ -108,7 +108,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 8:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador8" name="publicador8" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador8" name="publicador8" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo8" name="tipo8">
@@ -120,7 +120,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 9:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador9" name="publicador9" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador9" name="publicador9" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo9" name="tipo9">
@@ -132,7 +132,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 10:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador10" name="publicador10" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador10" name="publicador10" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo10" name="tipo10">
@@ -144,7 +144,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 11:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador11" name="publicador11" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador11" name="publicador11" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo11" name="tipo11">
@@ -156,7 +156,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 12:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador12" name="publicador12" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador12" name="publicador12" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo12" name="tipo12">
@@ -168,7 +168,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 13:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador13" name="publicador13" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador13" name="publicador13" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo13" name="tipo13">
@@ -180,7 +180,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 14:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador14" name="publicador14" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador14" name="publicador14" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo14" name="tipo14">
@@ -192,7 +192,7 @@
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICADOR 15:</strong></label>
-				<input style="margin: 5px;" type="text" class="form-control" id="publicador15" name="publicador15" placeholder="Damián Reyes Muñoz">
+				<input style="margin: 5px;" type="text" class="form-control" id="publicador15" name="publicador15" placeholder="Damián Reyes Muñoz" required>
 
 				<label style="margin: 20px;" ><strong>TIPO DE PUBLICADOR:</strong></label>
 				<select class="tipo" style="margin: 10px" id="tipo15" name="tipo15">

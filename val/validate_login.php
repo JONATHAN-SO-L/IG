@@ -13,12 +13,14 @@ switch ($rel['tipo']) {
 	case 'A':
 	session_start();
 	$_SESSION['usuario'] = $user;
+	$_SESSION['tipo'] = $rel['tipo'];
 	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/admin'>";
 	break;
 
 	case 'S':
 	session_start();
 	$_SESSION['usuario'] = $user;
+	$_SESSION['tipo'] = $rel['tipo'];
 	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/admin'>";
 	break;
 
@@ -28,36 +30,42 @@ switch ($rel['tipo']) {
 		case 'grupo1':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo1/functions/info.php'>";
 		break;
 
 		case 'grupo2':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo2/functions/info.php'>";
 		break;
 
 		case 'grupo3':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo3/functions/info.php'>";
 		break;
 
 		case 'grupo4':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo4/functions/info.php'>";
 		break;
 
 		case 'grupo5':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo5/functions/info.php'>";
 		break;
 
 		case 'grupo6':
 		session_start();
 		$_SESSION['usuario'] = $user;
+		$_SESSION['tipo'] = $rel['tipo'];
 		echo "<meta http-equiv='refresh' content='0; url=/ig/sys/gp/grupo6/functions/info.php'>";
 		break;
 		
