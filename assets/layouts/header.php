@@ -9,7 +9,7 @@
 <div class="collapse navbar-collapse " id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">INFORME MENSUAL</a>
+      <a class="nav-link" href="/ig">INFORME MENSUAL</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="https://mex.000webhost.com/cpanel-login" target="_blank">ADMIN</a>

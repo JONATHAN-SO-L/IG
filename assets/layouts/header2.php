@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a style="margin: 5px;" class="nav-link" href="#">INFORME MENSUAL</a>
+          <a style="margin: 5px;" class="nav-link" href="/ig">INFORME MENSUAL</a>
         </li>
       </ul>
     </div>
