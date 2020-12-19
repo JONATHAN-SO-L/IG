@@ -3844,4 +3844,15 @@ function informe_pub120() {
 	require '../../../../../settings/close.php';
 }
 
+/***************************************************************************************************************
+*										Funciones para el informe en PDF							   		   *
+***************************************************************************************************************/
+
+function mes1() {
+	$sql = "SELECT * FROM mes1";
+	$exec = mysqli_query($cn, $sql);
+	$rel = mysqli_fetch_array($exec);
+	print_r($rel['mes']);
+}
+
 ?>
