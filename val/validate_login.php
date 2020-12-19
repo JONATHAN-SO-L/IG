@@ -19,7 +19,7 @@ switch ($rel['tipo']) {
 	case 'S':
 	session_start();
 	$_SESSION['usuario'] = $user;
-	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/super'>";
+	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/admin'>";
 	break;
 
 	case 'U':
