@@ -43,7 +43,7 @@ if (isset($_SESSION['usuario'])) {}
 	<?php require '../../settings/conexion.php'; ?>
 
 	<br>
-	<h2 class="titulo_admin"><strong>¡BIENVENIDO <?php echo $_SESSION['usuario']; ?>!</strong></h2>
+	<h2 class="titulo_admin"><strong>¡Bienvenido <?php echo $_SESSION['usuario']; ?>!</strong></h2>
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
