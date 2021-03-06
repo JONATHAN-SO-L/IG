@@ -48,7 +48,7 @@ require '../../../functions/publicadores.php';
 require '../../../../../settings/conexion.php';
 
 function head() {
-	include "../../../../../assets/layouts/header.php";
+	include "../../../../../assets/layouts/header2.php";
 }
 
 function footer() {
