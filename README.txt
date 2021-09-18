@@ -1,4 +1,4 @@
-Versión: 1.0.0
-Clasificación: Alpha
+VersiÃ³n: 1.0.0
+ClasificaciÃ³n: Beta
 Estado: En pruebas
-Fecha de última actualización: 18-09-2021
+Fecha de Ãºltima actualizaciÃ³n: 18-09-2021
