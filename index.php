@@ -75,7 +75,9 @@ if (isset($_SESSION['usuario'])) {
 
 	<div class="container">
 		<h2 style="color: white;"><strong><center>¡Bienvenido al Sistema de Informes de Grupo!</center></strong></h2>
-	</div><br>
+	</div>
+
+		<h3 style="color: white;"><strong><center>Congregación Lagunilla</center></strong></h3><br>
 
 	<div class="container">
 		<form method="POST" action="/ig/val/validate_login.php">

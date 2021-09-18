@@ -47,7 +47,7 @@ if (isset($_SESSION['usuario'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 	<title>INFORME DE GRUPO</title>
 	<link rel="icon" href="/ig/assets/img/logo.png" type="image/icon">
@@ -59,11 +59,12 @@ if (isset($_SESSION['usuario'])) {
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
+	<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/mes.css">
 </head>
 <body>
 
-	<?php include '../../../../assets/layouts/header.php'; ?><br>
+	<?php include '../../../../assets/layouts/header.php'; ?> <br>
 
 	<div class="container">
 		<center>
@@ -83,18 +84,16 @@ if (isset($_SESSION['usuario'])) {
 <?php
 
 if (isset($_POST['ingresar'])) {
-
+	
 	require '../../../../settings/conexion.php';
 
-	$mes = $_POST['mes'];
-	$query = "INSERT INTO mes1 (mes) VALUES ('$mes')";
-
-	$cn->query($query);
+	$month = $_POST['mes'];
+	$action = "INSERT INTO $table1 (`id_mes`, `mes1`, `mes2`, `mes3`, `mes4`, `mes5`, `mes6`) VALUES (NULL, '$month', NULL, NULL, NULL, NULL, NULL);";
+	$cn->query($action);
 
 	require '../../../../settings/close.php';
 
 	echo "<script>alert('MES REGISTRADO CORRECTAMENTE')</script>";
-
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/functions/info.php">';
 
 }

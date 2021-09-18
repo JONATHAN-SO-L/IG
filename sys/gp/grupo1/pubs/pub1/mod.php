@@ -44,9 +44,7 @@ if (isset($_SESSION['usuario'])) {
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
 }
 
-?>
-
-<?php require '../../../functions/publicadores.php'; ?>
+require '../../../functions/fun.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -61,6 +59,7 @@ if (isset($_SESSION['usuario'])) {
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
+	<link rel="stylesheet" type="text/css" href="/ig/css/header2.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/informe.css">
 </head>
 <body>
@@ -90,23 +89,23 @@ if (isset($_SESSION['usuario'])) {
 
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PUBLICACIONES (IMPRESAS Y ELECTRÓNICAS):</strong></label>
-				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="publicaciones" name="publicaciones" placeholder="0">
+				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="publicaciones" name="publicaciones">
 			</div><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>PRESENTACIONES DE VIDEOS:</strong></label>
-				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="videos" name="videos" placeholder="0">
+				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="videos" name="videos">
 			</div><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>HORAS:</strong></label>
-				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="horas" name="horas" placeholder="0">
+				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="horas" name="horas">
 			</div><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>REVISITAS:</strong></label>
-				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="revisitas" name="revisitas" placeholder="0">
+				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="revisitas" name="revisitas">
 			</div><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>NÚMERO DE <i>DIFERENTES</i> CURSOS BÍBLICOS DIRIGIDOS:</strong></label>
-				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="cursos" name="cursos" placeholder="0">
+				<input style="margin: 5px;" required type="number" min="0" class="form-control" id="cursos" name="cursos">
 			</div><br>
 			<div class="form-inline">
 				<label style="margin: 20px;" ><strong>COMENTARIOS:</strong></label>
@@ -126,22 +125,25 @@ if (isset($_SESSION['usuario'])) {
 <?php
 
 if (isset($_POST['guardar'])) {
-
+	
 	require '../../../../../settings/conexion.php';
 
-	$tipo = $_POST['tipo'];
 	$publicaciones = $_POST['publicaciones'];
 	$videos = $_POST['videos'];
 	$horas = $_POST['horas'];
 	$revisitas = $_POST['revisitas'];
 	$cursos = $_POST['cursos'];
 	$comentarios = $_POST['comentarios'];
+	$tipo = $_POST['tipo'];
 
-	$sql = "UPDATE publicador1 SET publicaciones = '$publicaciones', videos = '$videos', horas = '$horas', revisitas = '$revisitas', cursos = '$cursos', comentarios = '$comentarios', tipo = '$tipo'";
-	$query = mysqli_query ($cn,$sql);
+	$insercion = "UPDATE $table2 SET publicaciones = '$publicaciones', videos = '$videos', horas = '$horas', revisitas = '$revisitas', cursos = '$cursos', comentarios = '$comentarios', tipo = '$tipo' WHERE id_pub = 1";
+	$ejecucion = mysqli_query($cn, $insercion);
 
-	echo "<script>alert('INFORME MODIFICADO CORRECTAMENTE')</script>";
-	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/views/panel.php">';
+	echo "<script>alert('INFORME MODIFICADO CON ÉXITO')</script>";
+	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/pubs/pub1/">';
+
+	require '../../../../../settings/close.php';
+
 }
 
 ?>

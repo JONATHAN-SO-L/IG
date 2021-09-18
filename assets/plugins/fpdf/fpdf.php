@@ -991,7 +991,7 @@ function Output($dest='', $name='', $isUTF8=false)
 	if($dest=='')
 		$dest = 'I';
 	if($name=='')
-		$name = 'informe.pdf';	// Nombre del pdf
+		$name = 'informe.pdf';	// Nombre del PDF
 	switch(strtoupper($dest))
 	{
 		case 'I':

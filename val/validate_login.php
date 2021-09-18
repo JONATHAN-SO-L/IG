@@ -5,7 +5,7 @@ require '../settings/conexion.php';
 $user = $_POST['usuario'];
 $contra = $_POST['contrasena'];
 
-$query = "SELECT tipo FROM $table3 WHERE usuario = '$user' AND contrasena = '$contra'";
+$query = "SELECT tipo FROM $table4 WHERE usuario = '$user' AND contraseña = '$contra'";
 $rq = mysqli_query($cn,$query);
 $rel = mysqli_fetch_array($rq);
 

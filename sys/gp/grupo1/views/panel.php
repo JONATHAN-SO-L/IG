@@ -46,7 +46,7 @@ if (isset($_SESSION['usuario'])) {
 
 ?>
 
-<?php require '../../functions/publicadores.php'; ?>
+<?php require '../../functions/fun.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -62,10 +62,11 @@ if (isset($_SESSION['usuario'])) {
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/panel.css">
+	<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 </head>
 <body>
 
-	<?php include '../../../../assets/layouts/header.php'; ?><br>
+	<?php include '../../../../assets/layouts/header.php'; ?> <br>
 
 	<h2 class="titulo_panel"><strong>Panel del <?php echo $_SESSION['usuario']; ?></strong></h2><br>
 
@@ -129,6 +130,8 @@ if (isset($_SESSION['usuario'])) {
 		<a href="/ig/sys/gp/grupo1/reporte"><button style="margin: 10px" type="sumbit" class="btn botones-s5 btn-lg"><img id="faltantes" src="/ig/assets/img/faltantes.png"><strong class="faltantes">FALTANTES</strong></button></a>
 
 		<a href="/ig/sys/gp/grupo1/informe"><button style="margin: 10px" type="sumbit" class="btn botones-s6 btn-lg"><img id="informe" src="/ig/assets/img/descarga.png"><strong>INFORME</strong></button></a>
+
+		<!-- <a href="/ig/sys/gp/grupo1/grafica"><button style="margin: 10px" type="sumbit" class="btn botones-s2 btn-lg"><img id="grafica" src="/ig/assets/img/grafica.png"><strong>GRÁFICA</strong></button></a> -->
 	</div>
 
 	<div class="container" align="center">
@@ -166,7 +169,7 @@ if (isset($_SESSION['usuario'])) {
 				<div class="modal-content">
 
 					<div class="modal-header">
-						<img id="qns" src="/ig/assets/img/qns.png" style="margin-top: 5px" ><h3 class="form-title" style="margin: 10px">Quejas & Sugerencias</h3>
+						<img id="qns" src="/ig/assets/img/qns.png" style="margin-top: 5px" ><h3 class="form-title" style="margin: 10px"><strong>Buzón de Mensajes</strong></h3>
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
 					</div>
 

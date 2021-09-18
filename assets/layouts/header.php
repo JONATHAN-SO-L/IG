@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
-
 <nav class="navbar navbar-expand-sm">
 
  <a class="navbar-brand">

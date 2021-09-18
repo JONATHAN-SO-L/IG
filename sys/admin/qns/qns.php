@@ -38,6 +38,7 @@ if (isset($_SESSION['usuario'])) {}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/panel_admin.css">
+  <link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
 </head>
@@ -65,7 +66,7 @@ if (isset($_SESSION['usuario'])) {}
 
         include "../../../settings/conexion.php";
 
-        $sql = "SELECT * FROM q_n_s";
+        $sql = "SELECT * FROM $table3";
         $query = mysqli_query ($cn, $sql);
 
         while ($qns = mysqli_fetch_array ($query)){

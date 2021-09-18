@@ -1,12 +1,14 @@
 <?php
 
 $host = "localhost";
-$admin = "admin";
-$pass = "admin";
+$admin = "root";
+$pass = "";
 $ddbb = "ig";
 
-$table2 = "q_n_s";
-$table3 = "usuarios";
+$table1 = "meses";
+$table2 = "publicadores";
+$table3 = "q_n_s";
+$table4 = "usuarios";
 
 $cn = new mysqli ($host, $admin, $pass, $ddbb);
 

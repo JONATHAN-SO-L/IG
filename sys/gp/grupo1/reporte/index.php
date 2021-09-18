@@ -59,6 +59,7 @@ if (isset($_SESSION['usuario'])) {
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
+	<link rel="stylesheet" type="text/css" href="/ig/css/header2.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/faltantes.css">
 </head>
 <body>
@@ -67,7 +68,7 @@ if (isset($_SESSION['usuario'])) {
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
-	<?php include '../define/type.php'; ?>
+	<?php include '../define/nuf.php'; ?>
 
 	<div class='container' id="faltantes"><br>
 		<center><h3><strong>Publicadores que faltan informar</strong></h3></center>
@@ -80,106 +81,26 @@ if (isset($_SESSION['usuario'])) {
 			</thead>
 			<tbody>
 				<?php 
-				if ($rel1['tipo'] == 'PR') {
-					if ($rel1['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel1['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel2['tipo'] == 'PR') {
-					if ($rel2['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel2['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel3['tipo'] == 'PR') {
-					if ($rel3['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel3['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel4['tipo'] == 'PR') {
-					if ($rel4['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel4['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel5['tipo'] == 'PR') {
-					if ($rel5['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel5['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel6['tipo'] == 'PR') {
-					if ($rel6['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel6['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel7['tipo'] == 'PR') {
-					if ($rel7['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel7['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel8['tipo'] == 'PR') {
-					if ($rel8['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel8['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel9['tipo'] == 'PR') {
-					if ($rel9['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel9['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel10['tipo'] == 'PR') {
-					if ($rel10['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel10['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel11['tipo'] == 'PR') {
-					if ($rel11['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel11['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel12['tipo'] == 'PR') {
-					if ($rel12['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel12['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel13['tipo'] == 'PR') {
-					if ($rel13['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel13['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel14['tipo'] == 'PR') {
-					if ($rel14['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel14['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel15['tipo'] == 'PR') {
-					if ($rel15['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel15['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel16['tipo'] == 'PR') {
-					if ($rel16['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel16['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel17['tipo'] == 'PR') {
-					if ($rel17['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel17['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel18['tipo'] == 'PR') {
-					if ($rel18['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel18['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel19['tipo'] == 'PR') {
-					if ($rel19['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel19['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel20['tipo'] == 'PR') {
-					if ($rel20['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel20['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
+					pr_pub1();
+					pr_pub2();
+					pr_pub3();
+					pr_pub4();
+					pr_pub5();
+					pr_pub6();
+					pr_pub7();
+					pr_pub8();
+					pr_pub9();
+					pr_pub10();
+					pr_pub11();
+					pr_pub12();
+					pr_pub13();
+					pr_pub14();
+					pr_pub15();
+					pr_pub16();
+					pr_pub17();
+					pr_pub18();
+					pr_pub19();
+					pr_pub20();
 				?>
 			</tbody>
 		</table>
@@ -193,106 +114,26 @@ if (isset($_SESSION['usuario'])) {
 			</thead>
 			<tbody>
 				<?php 
-				if ($rel1['tipo'] == 'PA') {
-					if ($rel1['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel1['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel2['tipo'] == 'PA') {
-					if ($rel2['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel2['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel3['tipo'] == 'PA') {
-					if ($rel3['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel3['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel4['tipo'] == 'PA') {
-					if ($rel4['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel4['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel5['tipo'] == 'PA') {
-					if ($rel5['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel5['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel6['tipo'] == 'PA') {
-					if ($rel6['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel6['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel7['tipo'] == 'PA') {
-					if ($rel7['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel7['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel8['tipo'] == 'PA') {
-					if ($rel8['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel8['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel9['tipo'] == 'PA') {
-					if ($rel9['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel9['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel10['tipo'] == 'PA') {
-					if ($rel10['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel10['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel11['tipo'] == 'PA') {
-					if ($rel11['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel11['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel12['tipo'] == 'PA') {
-					if ($rel12['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel12['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel13['tipo'] == 'PA') {
-					if ($rel13['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel13['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel14['tipo'] == 'PA') {
-					if ($rel14['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel14['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel15['tipo'] == 'PA') {
-					if ($rel15['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel15['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel16['tipo'] == 'PA') {
-					if ($rel16['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel16['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel17['tipo'] == 'PA') {
-					if ($rel17['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel17['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel18['tipo'] == 'PA') {
-					if ($rel18['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel18['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel19['tipo'] == 'PA') {
-					if ($rel19['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel19['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel20['tipo'] == 'PA') {
-					if ($rel20['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel20['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
+					pa_pub1();
+					pa_pub2();
+					pa_pub3();
+					pa_pub4();
+					pa_pub5();
+					pa_pub6();
+					pa_pub7();
+					pa_pub8();
+					pa_pub9();
+					pa_pub10();
+					pa_pub11();
+					pa_pub12();
+					pa_pub13();
+					pa_pub14();
+					pa_pub15();
+					pa_pub16();
+					pa_pub17();
+					pa_pub18();
+					pa_pub19();
+					pa_pub20();
 				?>
 			</tbody>
 		</table>
@@ -306,106 +147,26 @@ if (isset($_SESSION['usuario'])) {
 			</thead>
 			<tbody>
 				<?php 
-				if ($rel1['tipo'] == 'PUB') {
-					if ($rel1['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel1['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel2['tipo'] == 'PUB') {
-					if ($rel2['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel2['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel3['tipo'] == 'PUB') {
-					if ($rel3['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel3['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel4['tipo'] == 'PUB') {
-					if ($rel4['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel4['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel5['tipo'] == 'PUB') {
-					if ($rel5['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel5['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel6['tipo'] == 'PUB') {
-					if ($rel6['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel6['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel7['tipo'] == 'PUB') {
-					if ($rel7['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel7['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel8['tipo'] == 'PR') {
-					if ($rel8['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel8['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel9['tipo'] == 'PUB') {
-					if ($rel9['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel9['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel10['tipo'] == 'PUB') {
-					if ($rel10['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel10['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel11['tipo'] == 'PUB') {
-					if ($rel11['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel11['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel12['tipo'] == 'PUB') {
-					if ($rel12['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel12['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel13['tipo'] == 'PUB') {
-					if ($rel13['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel13['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel14['tipo'] == 'PUB') {
-					if ($rel14['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel14['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel15['tipo'] == 'PUB') {
-					if ($rel15['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel15['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel16['tipo'] == 'PUB') {
-					if ($rel16['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel16['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel17['tipo'] == 'PUB') {
-					if ($rel17['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel17['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel18['tipo'] == 'PUB') {
-					if ($rel18['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel18['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel19['tipo'] == 'PUB') {
-					if ($rel19['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel19['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
-				if ($rel20['tipo'] == 'PUB') {
-					if ($rel20['horas'] == NULL) {
-						echo '<tr><th><center>'.$rel20['nombre'].'</center></th></tr>';
-					} else {}
-				} else {}
+					pub_pub1();
+					pub_pub2();
+					pub_pub3();
+					pub_pub4();
+					pub_pub5();
+					pub_pub6();
+					pub_pub7();
+					pub_pub8();
+					pub_pub9();
+					pub_pub10();
+					pub_pub11();
+					pub_pub12();
+					pub_pub13();
+					pub_pub14();
+					pub_pub15();
+					pub_pub16();
+					pub_pub17();
+					pub_pub18();
+					pub_pub19();
+					pub_pub20();
 				?>			
 			</tbody>
 		</table><br>

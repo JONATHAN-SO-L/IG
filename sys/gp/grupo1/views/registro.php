@@ -1,5 +1,53 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['usuario'])) {
+
+	switch ($_SESSION['usuario']) {
+
+		case 'grupo2':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo3':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo4':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo5':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'grupo6':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'secretario':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+
+		case 'admin':
+		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+		break;
+		
+		default:
+
+		break;
+	}
+	
+}	else {
+
+	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+}
+
+?>
+
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 	<title>INFORME DE GRUPO</title>
 	<link rel="icon" href="/ig/assets/img/logo.png" type="image/icon">
@@ -11,11 +59,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
+	<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/informe.css">
 </head>
 <body>
 
-	<?php include '../../../../assets/layouts/header.php'; ?><br>
+	<?php include '../../../../assets/layouts/header.php'; ?> <br>
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
@@ -275,52 +324,34 @@
 
 <?php
 
-require '../../functions/publicadores.php';
+require '../../functions/fun.php';
 
 if (isset($_POST['registrar'])) {
-	
-	pub1();
 
+	pub1();
 	pub2();
-	
 	pub3();
-	
 	pub4();
-	
 	pub5();
-	
 	pub6();
-	
 	pub7();
-	
 	pub8();
-	
 	pub9();
-	
 	pub10();
-	
 	pub11();
-	
 	pub12();
-	
 	pub13();
-	
 	pub14();
-	
 	pub15();
-	
 	pub16();
-	
 	pub17();
-	
 	pub18();
-	
 	pub19();
-	
 	pub20();
 
 	echo "<script>alert('PUBLICADORES GUARDADOS CORRECTAMENTE')</script>";
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/functions/info.php">';
+
 }
 
 ?>

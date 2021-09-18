@@ -34,6 +34,7 @@ if (isset($_SESSION['usuario'])) {}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/panel_admin.css">
+	<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 	<script src="/ig/js/subir.js"></script>
 </head>
@@ -50,32 +51,32 @@ if (isset($_SESSION['usuario'])) {}
 	<?php
 
 	// Validación de datos en Grupo 1
-	$sql1 = "SELECT horas FROM publicador15";
+	$sql1 = "SELECT horas FROM publicadores WHERE id_pub = 15"; // Límite de 20 publicadores
 	$query1 = mysqli_query ($cn,$sql1);
 	$rel1 = mysqli_fetch_array ($query1);
 
 	// Validación de datos en Grupo 2
-	$sql2 = "SELECT horas FROM publicador35";
+	$sql2 = "SELECT horas FROM publicadores WHERE id_pub = 35"; // Límite de 40 publicadores
 	$query2 = mysqli_query ($cn,$sql2);
 	$rel2 = mysqli_fetch_array ($query2);
 
 	// Validación de datos en Grupo 3
-	$sql3 = "SELECT horas FROM publicador55";
+	$sql3 = "SELECT horas FROM publicadores WHERE id_pub = 55"; // Límite de 60 publicadores
 	$query3 = mysqli_query ($cn,$sql3);
 	$rel3 = mysqli_fetch_array ($query3);
 
 	// Validación de datos en Grupo 4
-	$sql4 = "SELECT horas FROM publicador75";
+	$sql4 = "SELECT horas FROM publicadores WHERE id_pub = 75"; // Límite de 80 publicadores
 	$query4 = mysqli_query ($cn,$sql4);
 	$rel4 = mysqli_fetch_array ($query4);
 
 	// Validación de datos en Grupo 5
-	$sql5 = "SELECT horas FROM publicador95";
+	$sql5 = "SELECT horas FROM publicadores WHERE id_pub = 95"; // Límite de 110 publicadores
 	$query5 = mysqli_query ($cn,$sql5);
 	$rel5 = mysqli_fetch_array ($query5);
 
 	// Validación de datos en Grupo 6
-	$sql6 = "SELECT horas FROM publicador115";
+	$sql6 = "SELECT horas FROM publicadores WHERE id_pub = 115"; // Límite de 120 publicadores
 	$query6 = mysqli_query ($cn,$sql6);
 	$rel6 = mysqli_fetch_array ($query6);
 
@@ -102,6 +103,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo1/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo1/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 
@@ -132,6 +135,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo2/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo2/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 
@@ -162,6 +167,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo3/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo3/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 
@@ -192,6 +199,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo4/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo4/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 
@@ -222,6 +231,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo5/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo5/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 
@@ -252,6 +263,8 @@ if (isset($_SESSION['usuario'])) {}
 							
 							default:
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
+							echo "<a href='/ig/sys/gp/grupo6/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
+							//echo "   <a href='/ig/sys/gp/grupo6/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";
 							break;
 						}
 

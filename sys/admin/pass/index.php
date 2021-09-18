@@ -39,11 +39,12 @@ if (isset($_SESSION['usuario'])) {}
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/panel.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
+	<link rel="stylesheet" type="text/css" href="/ig/css/header.css">
 	<script src="/ig/js/subir.js"></script>
 </head>
 <body>
 
-	<?php include '../../../assets/layouts/header2.php'; ?><br>
+	<?php include '../../../assets/layouts/header.php'; ?><br>
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
@@ -62,7 +63,7 @@ if (isset($_SESSION['usuario'])) {}
 		</div>
 
 		<div class="container" align="center">
-			<a href="/ig/sys/admin/pass/passsuper.php"><button style="margin: 10px" type="sumbit" class="btn btn-dark btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong>SECRETARIO</strong></button></a>
+			<a href="/ig/sys/admin/pass/pass_super.php"><button style="margin: 10px" type="sumbit" class="btn btn-dark btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong>SECRETARIO</strong></button></a>
 		</div><br>
 	</div>
 

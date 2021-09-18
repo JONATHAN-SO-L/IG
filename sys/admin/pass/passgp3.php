@@ -39,6 +39,7 @@ if (isset($_SESSION['usuario'])) {}
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/ig/css/panel.css">
 	<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
+	<link rel="stylesheet" type="text/css" href="/ig/css/header2.css">
 	<script src="/ig/js/subir.js"></script>
 </head>
 <body>
@@ -55,7 +56,7 @@ if (isset($_SESSION['usuario'])) {}
 					<strong><h3>CAMBIO DE CONTRASEÑA DEL GRUPO 3</h3></strong>
 				</div>
 				<div class="container form-inline">
-					<label style="margin: 20px;">CONTRASEÑA ANTIGUA:</label>
+					<label style="margin: 20px;">CONTRASEÑA ACTUAL:</label>
 					<input style="margin: 5px;" type="password" name="old_password" required class="form-control">
 				</div>
 				<div class="container form-inline">
@@ -63,7 +64,7 @@ if (isset($_SESSION['usuario'])) {}
 					<input style="margin: 5px;" type="password" name="new_pass" required class="form-control">
 				</div>
 				<div class="container form-inline">
-					<input type="submit" name="guardar" value="CAMBIAR CONTRASEÑA" class="btn btn-success form-control">
+					<input type="submit" name="cambiar" value="CAMBIAR CONTRASEÑA" class="btn btn-success form-control">
 				</div>
 			</form><br>
 		</div>
@@ -77,32 +78,32 @@ if (isset($_SESSION['usuario'])) {}
 
 <?php
 
-if (isset($_POST['guardar'])) {
+if (isset($_POST['cambiar'])) {
 
 	require "../../../settings/conexion.php";
 
 	$pass_old = $_POST['old_password'];
 	$pass_new = $_POST['new_pass'];
 
-	$sql = "SELECT contrasena FROM $table3 WHERE contrasena = '$pass_old' AND usuario = 'grupo3'";
+	$sql = "SELECT contraseña FROM $table4 WHERE contraseña = '$pass_old' AND usuario = 'grupo3'";
 	$con = mysqli_query($cn, $sql);
 	$rel = mysqli_fetch_array($con);
 
-	if ($rel['contrasena'] == $pass_old) {
+	if ($rel['contraseña'] == $pass_old) {
 
-		$query = "SELECT usuario FROM $table3 WHERE usuario = 'grupo3'";
+		$query = "SELECT usuario FROM $table4 WHERE usuario = 'grupo3'";
 		$action = mysqli_query ($cn, $query);
 		$usr = mysqli_fetch_array ($action);
 
 		if ($usr['usuario'] = 'grupo3') {
 
-			if ($pass_new == $rel['contrasena']) {
+			if ($pass_new == $rel['contraseña']) {
 
 				echo "<script>alert('LA CONTRASEÑA NUEVA NO PUEDE SER IGUAL QUE LA ANTERIOR')</script>";
 
 			}	else {
 
-				$cn->query("UPDATE usuarios SET contrasena = '$pass_new' WHERE contrasena = '$pass_old' AND usuario = 'grupo3'");
+				$cn->query("UPDATE usuarios SET contraseña = '$pass_new' WHERE contraseña = '$pass_old' AND usuario = 'grupo3'");
 
 				echo "<script>alert('CONTRASEÑA MODIFICADA CON ÉXITO')</script>";
 
@@ -114,7 +115,7 @@ if (isset($_POST['guardar'])) {
 
 	}	else {
 
-		echo "<script>alert('ESTE USUARIO NO CUENTA CON LA CONTRASEÑA QUE INGRESASTE, INTÉNTALO DE NUEVO')</script>";
+		echo "<script>alert('LA CONTRASEÑA ANTIGUA QUE SE INGRESÓ NO ES LA CORRECTA, INTÉNTALO DE NUEVO')</script>";
 
 	}
 

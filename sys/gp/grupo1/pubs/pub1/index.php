@@ -44,33 +44,30 @@ if (isset($_SESSION['usuario'])) {
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
 }
 
-require '../../../functions/publicadores.php';
 require '../../../../../settings/conexion.php';
+require '../../../functions/fun.php';
 
-function head() {
-	include "../../../../../assets/layouts/header2.php";
+function head () {
+	include '../../../../../assets/layouts/header.php';
 }
 
-function footer() {
-	include "../../../../../assets/layouts/footer.php";
+function footer () {
+	include '../../../../../assets/layouts/footer.php';
 }
 
-$existencia = "SELECT horas FROM publicador1";
-$query = mysqli_query ($cn,$existencia);
-$arreglo = mysqli_fetch_array ($query);
+$val_info = "SELECT horas FROM $table2 WHERE id_pub = 1";
+$sentencia = mysqli_query($cn, $val_info);
+$resul = mysqli_fetch_array($sentencia);
 
-switch ($arreglo['horas']) {
-
-	case "":
+switch ($resul['horas']) {
+	case '':
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/pubs/pub1/registro.php">';
 	break;
-	
+
 	default:
-	$sql = "SELECT publicaciones, videos, horas, revisitas, cursos, comentarios FROM publicador1";
-	$rel = mysqli_query ($cn,$sql);
-	
-	require '../../../../../settings/close.php';
-	
+	$sql = "SELECT publicaciones, videos, horas, revisitas, cursos, comentarios FROM $table2 WHERE id_pub = 1";
+	$rel = mysqli_query($cn, $sql);
+
 	while ($pub = mysqli_fetch_array($rel)) {
 
 		echo '
@@ -87,6 +84,7 @@ switch ($arreglo['horas']) {
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="/ig/css/subir.css">
 		<script src="/ig/js/subir.js"></script>
+		<link rel="stylesheet" type="text/css" href="/ig/css/header2.css">
 		<link rel="stylesheet" type="text/css" href="/ig/css/informe.css">
 		</head>
 		<body>
@@ -143,9 +141,9 @@ switch ($arreglo['horas']) {
 		footer();
 
 		break;
-
 	}
-	
 }
+
+require '../../../../../settings/close.php';
 
 ?>

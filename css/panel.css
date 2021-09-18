@@ -74,6 +74,12 @@ body {
     margin-right: 10px;
 }
 
+#grafica {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
 #reiniciar {
     height: 40px;
     width: 55px;
