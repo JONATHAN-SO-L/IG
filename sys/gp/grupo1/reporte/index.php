@@ -80,7 +80,7 @@ if (isset($_SESSION['usuario'])) {
 				<br>
 			</thead>
 			<tbody>
-				<?php 
+				<?php // Se enlistan los PR registrados en el grupo
 					pr_pub1();
 					pr_pub2();
 					pr_pub3();
@@ -113,7 +113,7 @@ if (isset($_SESSION['usuario'])) {
 				<br>
 			</thead>
 			<tbody>
-				<?php 
+				<?php // Se enlistan los PA registrados en el grupo
 					pa_pub1();
 					pa_pub2();
 					pa_pub3();
@@ -146,7 +146,7 @@ if (isset($_SESSION['usuario'])) {
 				<br>
 			</thead>
 			<tbody>
-				<?php 
+				<?php // Se enlistan los PUB registrados en el grupo
 					pub_pub1();
 					pub_pub2();
 					pub_pub3();

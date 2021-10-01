@@ -20,6 +20,7 @@ if (isset($_SESSION['usuario'])) {}
     echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
   }
 
+// Vacía y formatea la tabla de meses
   function drop_month(){
     require '../../../settings/conexion.php';
     $sql_month = "TRUNCATE $table1";
@@ -27,6 +28,7 @@ if (isset($_SESSION['usuario'])) {}
     require '../../../settings/close.php';
   }
 
+// Vacía y formatea la tabala de publicadores
   function drop_pubs(){
     require '../../../settings/conexion.php';
     $sql_pubs = "TRUNCATE $table2";

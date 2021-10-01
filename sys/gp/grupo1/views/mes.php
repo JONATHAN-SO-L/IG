@@ -66,6 +66,8 @@ if (isset($_SESSION['usuario'])) {
 
 	<?php include '../../../../assets/layouts/header.php'; ?> <br>
 
+<!-- Formluario de registro de mes -->
+
 	<div class="container">
 		<center>
 			<form method="POST" action="#"><br>
@@ -89,7 +91,7 @@ if (isset($_POST['ingresar'])) {
 
 	$month = $_POST['mes'];
 	$action = "INSERT INTO $table1 (`id_mes`, `mes1`, `mes2`, `mes3`, `mes4`, `mes5`, `mes6`) VALUES (NULL, '$month', NULL, NULL, NULL, NULL, NULL);";
-	$cn->query($action);
+	$cn->query($action);	// Se guarda el mes en la BBDD con ID
 
 	require '../../../../settings/close.php';
 

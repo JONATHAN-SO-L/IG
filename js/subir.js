@@ -1,3 +1,4 @@
+// Botón de subir
 $(document).ready(function(){
  
   $('.ir-arriba').click(function(){

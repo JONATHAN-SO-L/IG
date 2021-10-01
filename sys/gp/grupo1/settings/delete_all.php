@@ -44,7 +44,7 @@ if (isset($_SESSION['usuario'])) {
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
 }
 
-function restart_mes() {
+function restart_mes() {	// Se borra el mes 'X'
 	require '../../../../settings/conexion.php';
 	$previo = "SELECT id_mes, mes1 FROM $table1 WHERE mes1 != ''";
 	$declaracion = mysqli_query($cn, $previo);
@@ -56,7 +56,7 @@ function restart_mes() {
 	require '../../../../settings/close.php';
 }
 
-function restart_pub1() {
+function restart_pub1() {	// Se actualiza el registro a valores nulos
 	require '../../../../settings/conexion.php';
 	$up = "UPDATE $table2 SET publicaciones = NULL, videos = NULL, horas = NULL, revisitas = NULL, cursos = NULL, comentarios = NULL WHERE id_pub = 1";
 	$move = mysqli_query($cn, $up);
@@ -196,7 +196,7 @@ function restart_pub20() {
 	require '../../../../settings/close.php';
 }
 
-if (isset($_POST['eliminar'])) {
+if (isset($_POST['eliminar'])) {	// Se ejecutan las funciones
 	restart_mes();
 	restart_pub1();
 	restart_pub2();

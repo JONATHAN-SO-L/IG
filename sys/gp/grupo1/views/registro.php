@@ -68,6 +68,7 @@ if (isset($_SESSION['usuario'])) {
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
+<!-- Formulario de Registro de Publicadores por Grupo -->
 	<div class="container">
 		<form class="form-inline" id="informe" method="POST" action="#"><br>
 			<h3 class="titulo_informe"><center><strong>REGISTRO DE PUBLICADORES</strong></center></h3><br>
@@ -328,6 +329,7 @@ require '../../functions/fun.php';
 
 if (isset($_POST['registrar'])) {
 
+// Se ejecutan los registros únicos por grupo
 	pub1();
 	pub2();
 	pub3();

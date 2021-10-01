@@ -2,7 +2,7 @@
 
 require '../../../../settings/conexion.php';
 
-// Consultas
+// Consultas a la BBDD
 $pub1 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=1";
 $pub2 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=2";
 $pub3 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=3";
@@ -24,7 +24,7 @@ $pub18 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=18";
 $pub19 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=19";
 $pub20 = "SELECT nombre, horas, tipo FROM $table2 WHERE id_pub=20";
 
-// Ejecuciones
+// Ejecuciones de las consultas
 $sql1 = mysqli_query ($cn, $pub1);
 $sql2 = mysqli_query ($cn, $pub2);
 $sql3 = mysqli_query ($cn, $pub3);
@@ -46,7 +46,7 @@ $sql18 = mysqli_query ($cn, $pub18);
 $sql19 = mysqli_query ($cn, $pub19);
 $sql20 = mysqli_query ($cn, $pub20);
 
-// Arreglos
+// Arreglos para la extracción legible de los datos
 $rel1 = mysqli_fetch_array($sql1);
 $rel2 = mysqli_fetch_array($sql2);
 $rel3 = mysqli_fetch_array($sql3);

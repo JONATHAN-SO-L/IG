@@ -1,7 +1,8 @@
 <?php
 
-session_start();
+session_start();	// Variable global de sesión iniciada
 
+//Valida si el usuario ya tiene sesión inciada, si es así, lo regresa a su panel
 if (isset($_SESSION['tipo'])) {
 
 	switch ($_SESSION['tipo']) {
@@ -19,6 +20,7 @@ if (isset($_SESSION['tipo'])) {
 	}
 }
 
+//Valida si el usuario ya tiene sesión inciada, si es así, lo regresa a su panel
 if (isset($_SESSION['usuario'])) {
 
 	switch ($_SESSION['usuario']) {

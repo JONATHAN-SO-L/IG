@@ -70,8 +70,10 @@ if (isset($_SESSION['usuario'])) {
 
 	<h2 class="titulo_panel"><strong>Panel del <?php echo $_SESSION['usuario']; ?></strong></h2><br>
 
+<!-- Botón de subir -->
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
+<!-- Botones del panel-->
 	<div class="container" align="center">
 		<a href="/ig/sys/gp/grupo1/pubs/pub1"><button style="margin: 10px" type="sumbit" class="btn botones-s1 btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong><?php panel_pub1(); ?></strong></button></a>
 
@@ -126,6 +128,7 @@ if (isset($_SESSION['usuario'])) {
 		<a href="/ig/sys/gp/grupo1/pubs/pub20"><button style="margin: 10px" type="sumbit" class="btn botones-s4 btn-lg"><img id="persona" src="/ig/assets/img/persona.png"><strong><?php panel_pub20(); ?></strong></button></a>
 	</div>
 
+<!-- Botones de acciones -->
 	<div class="container" align="center">
 		<a href="/ig/sys/gp/grupo1/reporte"><button style="margin: 10px" type="sumbit" class="btn botones-s5 btn-lg"><img id="faltantes" src="/ig/assets/img/faltantes.png"><strong class="faltantes">FALTANTES</strong></button></a>
 
@@ -137,6 +140,7 @@ if (isset($_SESSION['usuario'])) {
 	<div class="container" align="center">
 		<button name="borrar" style="margin: 10px" type="sumbit" class="btn botones-s7 btn-lg" data-toggle="modal" data-target="#myModal"><img id="reiniciar" src="/ig/assets/img/reiniciar.png" alt="borrar"><strong>BORRAR TODO</strong></button>
 
+<!-- Mensaje flotante -->
 		<div class="modal fade" id="myModal">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -161,6 +165,7 @@ if (isset($_SESSION['usuario'])) {
 		</div>
 	</div>
 
+<!-- Buzón de Mensajes flotante -->
 	<div class="container" align="center">
 		<span name="flotante" id="flotante" class="flotante" data-toggle="modal" data-target="#myModal2" ><img class="qns2" src="/ig/assets/img/qns.png" alt="Q&S"></span>
 

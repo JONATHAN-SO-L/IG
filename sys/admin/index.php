@@ -97,11 +97,11 @@ if (isset($_SESSION['usuario'])) {}
 						<?php
 
 						switch ($rel1['horas']) {
-							case '':
+							case '':	// Si el publicador con registro 'X' mo tiene informe guardado, se muestra el mensaje sin concluir
 							echo "<h5 class='alert alert-danger'><strong>SIN CONCLUIR</strong></h5>";
 							break;
 							
-							default:
+							default:	// Si el publicador con registro 'X' ya tiene informe guardado, se muestra el mensaje finalizado
 							echo "<h5 class='alert alert-success'><strong>FINALIZADO</strong></h5>";
 							echo "<a href='/ig/sys/gp/grupo1/informe/' class='alert alert-success'><strong>VER INFORME</strong></a>";
 							//echo "   <a href='/ig/sys/gp/grupo1/grafica/' class='alert alert-success'><strong>VER GRÁFICA</strong></a>";

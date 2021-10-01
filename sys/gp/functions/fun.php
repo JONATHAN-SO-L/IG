@@ -5,7 +5,7 @@
 
 function pub1()   {
 	require '../../../../settings/conexion.php';
-
+// Se registra el publicador únicamente con ID, Nombre y Tipo
 	$nombre = $_POST['publicador1'];
 	$tipo = $_POST['tipo1'];
 	$sql = "INSERT INTO $table2 (id_pub, nombre, publicaciones, videos, horas, revisitas, cursos, comentarios, tipo) VALUES (NULL, '$nombre', NULL, NULL, NULL, NULL, NULL, NULL, '$tipo')";
@@ -1373,7 +1373,7 @@ function pub120()   {
 /********************************************************************************************************************************************	    							   Funciones para mostrar el nombre de los publicadores en la DDBB 				 
 ********************************************************************************************************************************************/
 
-function panel_pub1() {
+function panel_pub1() {	// Se extrae el nombre del publicador de la BBDD para mostarlo
 	require '../../../../settings/conexion.php';
 	$query = "SELECT nombre FROM $table2 WHERE id_pub = 1";
 	$res = mysqli_query($cn, $query);
@@ -2458,14 +2458,14 @@ function panel_pub120() {
 *										Funciones para mostrar el nombre en el panel del informe 											*
 ********************************************************************************************************************************************/
 
-function informe_pub1() {
+function informe_pub1() {	// Se extrae el nombre del publicador de la BBDD para mostarlo en el botón del panel
 	require '../../../../../settings/conexion.php';
 	$query = "SELECT nombre FROM $table2 WHERE id_pub = 1";
 	$res = mysqli_query($cn, $query);
 	$lis = mysqli_fetch_assoc($res);
 	print_r($lis['nombre']);
 
-	if ($lis['nombre'] == '') {
+	if ($lis['nombre'] == '') {	// Si no exite un publicador registrado se muestra el siguiente mensaje
 		echo "<script>alert('ESTE PUBLICADOR NO ESTA REGISTRADO, LO QUE QUIERE DECIR QUE NO EXISTE. POR FAVOR, NO GUARDE NINGÚN DATO PARA QUE SU INFORME DE GRUPO SEA LO MÁS EXACTO POSIBLE')</script>";
 	}
 	require '../../../../../settings/close.php';

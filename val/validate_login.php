@@ -1,30 +1,33 @@
 <?php
 
-require '../settings/conexion.php';
+require '../settings/conexion.php';	//Conecta a la BBDD
 
+// Obtiene los datos del login
 $user = $_POST['usuario'];
 $contra = $_POST['contrasena'];
 
+// Verfica la existencia del usuario en la base de datos
 $query = "SELECT tipo FROM $table4 WHERE usuario = '$user' AND contraseña = '$contra'";
 $rq = mysqli_query($cn,$query);
 $rel = mysqli_fetch_array($rq);
 
+// Valida el tipo de usuario
 switch ($rel['tipo']) {
-	case 'A':
+	case 'A':	// Administrador
 	session_start();
 	$_SESSION['usuario'] = $user;
 	$_SESSION['tipo'] = $rel['tipo'];
 	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/admin'>";
 	break;
 
-	case 'S':
+	case 'S':	// Supervisor
 	session_start();
 	$_SESSION['usuario'] = $user;
 	$_SESSION['tipo'] = $rel['tipo'];
 	echo "<meta http-equiv='refresh' content='0; url=/ig/sys/admin'>";
 	break;
 
-	case 'U':
+	case 'U':	// Usuario
 	switch ($user) {
 
 		case 'grupo1':
@@ -77,6 +80,8 @@ switch ($rel['tipo']) {
 	break;
 	
 	default:
+	// Si no se halló el usuario en la BBDD resirige a la pantalla de error
 	echo "<meta http-equiv='refresh' content='0; url=/ig/val/data_failed.php'>";
 	break;
 }
+

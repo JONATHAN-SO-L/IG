@@ -1,3 +1,4 @@
+<!-- Barra de Navegación -->
 <nav class="navbar navbar-expand-sm">
 
  <a class="navbar-brand">
@@ -11,11 +12,11 @@
     </li>
 
     <?php
-
+// Validación del tipo de usuario para mostrar o no mostrar opciones
     if (isset($_SESSION['tipo'])) {
 
       switch ($_SESSION['tipo']) {
-        case 'A': 
+        case 'A': //Administador
 
         ?>
 
@@ -61,7 +62,7 @@
 
         break;
 
-        case 'S':
+        case 'S': //Supervisor
 
         ?>
 

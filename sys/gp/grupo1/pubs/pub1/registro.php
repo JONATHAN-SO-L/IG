@@ -75,6 +75,8 @@ require '../../../functions/fun.php'; ?>
 			</strong>
 		</div>
 
+<!-- Formulario de registro de informe por primera vez -->
+
 		<form class="form-inline" id="informe" method="POST" action="#"><br>
 			<h3 class="titulo_informe"><center><strong>INFORME DE PREDICACIÓN</strong></center></h3>
 			<h4 class="nombre_informe"><center><strong><?php informe_pub1(); ?></strong></center></h4>
@@ -128,6 +130,7 @@ if (isset($_POST['guardar'])) {
 	
 	require '../../../../../settings/conexion.php';
 
+// Se obtienen los datos
 	$publicaciones = $_POST['publicaciones'];
 	$videos = $_POST['videos'];
 	$horas = $_POST['horas'];
@@ -136,6 +139,7 @@ if (isset($_POST['guardar'])) {
 	$comentarios = $_POST['comentarios'];
 	$tipo = $_POST['tipo'];
 
+// Se envían a la BBDD
 	$insercion = "UPDATE $table2 SET publicaciones = '$publicaciones', videos = '$videos', horas = '$horas', revisitas = '$revisitas', cursos = '$cursos', comentarios = '$comentarios', tipo = '$tipo' WHERE id_pub = 1";
 	$ejecucion = mysqli_query($cn, $insercion);
 

@@ -57,7 +57,7 @@ if (isset($_POST['qns'])) {
 	$asunto=utf8_decode("SISTEMA DE INFORMES DE GRUPO MENSUAL -- LAGUNILLA");
 	$cuerpo= utf8_decode("Mensaje realizado por:  ".$name."\n\nEste es el mensaje: \n\n".$msj);
 
-	mail($destinatario, $asunto, $cuerpo);
+	mail($destinatario, $asunto, $cuerpo);	// Se envía por e-mail el mensaje al destinatario
 
 	echo "<script>alert('MENSAJE ENVIADO EXITOSAMENTE')</script>";
 

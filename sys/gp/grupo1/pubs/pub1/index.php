@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_SESSION['usuario'])) {
 
-	switch ($_SESSION['usuario']) {
+	switch ($_SESSION['usuario']) {	// Se prohibe el acceso a otros usuarios distintos
 
 		case 'grupo2':
 		echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
@@ -39,7 +39,7 @@ if (isset($_SESSION['usuario'])) {
 		break;
 	}
 	
-}	else {
+}	else {	// Si no existe una sesión abierta, se redirecciona al login
 
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
 }
@@ -55,16 +55,16 @@ function footer () {
 	include '../../../../../assets/layouts/footer.php';
 }
 
-$val_info = "SELECT horas FROM $table2 WHERE id_pub = 1";
+$val_info = "SELECT horas FROM $table2 WHERE id_pub = 1";	// Se extraen las horas almacenadas del publicador 'X' en la BBDD
 $sentencia = mysqli_query($cn, $val_info);
 $resul = mysqli_fetch_array($sentencia);
 
 switch ($resul['horas']) {
-	case '':
+	case '':	// Si no hay horas guardadas, se envía al formulario de informe
 	echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig/sys/gp/grupo1/pubs/pub1/registro.php">';
 	break;
 
-	default:
+	default:	// Si hay informe guardado, se muestra
 	$sql = "SELECT publicaciones, videos, horas, revisitas, cursos, comentarios FROM $table2 WHERE id_pub = 1";
 	$rel = mysqli_query($cn, $sql);
 

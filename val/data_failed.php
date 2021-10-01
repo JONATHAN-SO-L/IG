@@ -1,3 +1,4 @@
+<!-- Pantalla de error al fallar en la validación del usuario en la BBDD -->
 <!DOCTYPE html>
 <html lang="es">
 <head>

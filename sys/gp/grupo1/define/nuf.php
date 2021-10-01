@@ -4,7 +4,7 @@
 *						Función para validar si un publicador es "PR" y si ya tiene horas registradas en el informe 						*
 ********************************************************************************************************************************************/
 
-function pr_pub1() {
+function pr_pub1() {	// Si el publicador el PR se extrae su nombre y se muestra
 	require 'type.php';
 	switch ($rel1['tipo']) {
 		case 'PR':
@@ -228,7 +228,7 @@ function pr_pub20() {
 *						Función para validar si un publicador es "PA" y si ya tiene horas registradas en el informe 						*
 ********************************************************************************************************************************************/
 
-function pa_pub1() {
+function pa_pub1() {	// Si el publicador el PA se extrae su nombre y se muestra
 	require 'type.php';
 	switch ($rel1['tipo']) {
 		case 'PA':
@@ -452,7 +452,7 @@ function pa_pub20() {
 *						Función para validar si un publicador es "PUB" y si ya tiene horas registradas en el informe 						*
 ********************************************************************************************************************************************/
 
-function pub_pub1() {
+function pub_pub1() {	// Si el publicador el PUB se extrae su nombre y se muestra
 	require 'type.php';
 	switch ($rel1['tipo']) {
 		case 'PUB':

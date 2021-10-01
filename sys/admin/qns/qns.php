@@ -69,7 +69,7 @@ if (isset($_SESSION['usuario'])) {}
         $sql = "SELECT * FROM $table3";
         $query = mysqli_query ($cn, $sql);
 
-        while ($qns = mysqli_fetch_array ($query)){
+        while ($qns = mysqli_fetch_array ($query)){ // Se muestra un listado con todos los mensajes enviados
 
           echo "
           <tr>

@@ -1,5 +1,7 @@
+<!-- Link para abrir la hoja de estilos del pie de página -->
 <link rel="stylesheet" type="text/css" href="/ig/css/footer.css">
 
+<!-- Pie de página -->
 <footer>
 	
 	<div class="container" align="center">

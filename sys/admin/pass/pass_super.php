@@ -44,6 +44,8 @@ if (isset($_SESSION['usuario'])) {}
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
 
+<!-- Formulario para cambio de contraseña -->
+
 	<div class="container">
 
 		<div class="container pass form-inline"><br>
@@ -74,30 +76,32 @@ if (isset($_SESSION['usuario'])) {}
 
 <?php
 
-if (isset($_POST['cambiar'])) {
+if (isset($_POST['cambiar'])) {	// Si se presiona el botón "CAMBIAR CONTRASEÑA" se inicia el proceso
 
 	require "../../../settings/conexion.php";
 
-	$pass_old = $_POST['old_password'];
-	$pass_new = $_POST['new_pass'];
+	$pass_old = $_POST['old_password'];	// Obtiene la contraseña antigua
+	$pass_new = $_POST['new_pass'];	// Obtiene la contraseña nueva
 
+// Busca en la BBDD una contraseña parecida a la antigua que tenga como usuario al correspondiente
 	$sql = "SELECT contraseña FROM $table4 WHERE contraseña = '$pass_old' AND usuario = 'secretario'";
 	$con = mysqli_query($cn, $sql);
 	$rel = mysqli_fetch_array($con);
 
-	if ($rel['contraseña'] == $pass_old) {
+	if ($rel['contraseña'] == $pass_old) { // Si la contraseña encontrada es igual a la antigua, se inicia el proceso
 
+// Busca en la BBDD el usuario correspondiente
 		$query = "SELECT usuario FROM $table4 WHERE usuario = 'secretario'";
 		$action = mysqli_query ($cn, $query);
 		$usr = mysqli_fetch_array ($action);
 
-		if ($usr['usuario'] = 'secretario') {
+		if ($usr['usuario'] = 'secretario') {	// Si el usuario es identico al correspondiente se inicia el proceso
 
-			if ($pass_new == $rel['contraseña']) {
+			if ($pass_new == $rel['contraseña']) {	// Si la contraseña nueva es identica a la antigua, se cancela es cambio
 
 				echo "<script>alert('LA CONTRASEÑA NUEVA NO PUEDE SER IGUAL QUE LA ANTERIOR')</script>";
 
-			}	else {
+			}	else {	// Si la contraseña nueva es distinta a la antigua se cambia
 
 				$cn->query("UPDATE usuarios SET contraseña = '$pass_new' WHERE contraseña = '$pass_old' AND usuario = 'secretario'");
 

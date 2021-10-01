@@ -13,7 +13,7 @@ class PDF extends FPDF
 
 		$this->Cell(50);
 
-		$this->Cell(100,5,utf8_decode('INFORME DEL SERVICIO DEL CAMPO'),0,0,'C');
+		$this->Cell(100,5,utf8_decode('INFORME DEL SERVICIO DEL CAMPO'),0,0,'C');	// Título del formato
 
 		$this->Ln(10);
 
@@ -21,7 +21,7 @@ class PDF extends FPDF
 
 		$this->Cell(50);
 
-		$this->Cell(100,10,utf8_decode('GRUPO DE PREDICACIÓN NO. 1'),0,0,'C');
+		$this->Cell(100,10,utf8_decode('GRUPO DE PREDICACIÓN NO. 1'),0,0,'C');	// Grupo Correspondiente
 
 		$this->Ln(10);
 	}
@@ -32,7 +32,7 @@ class PDF extends FPDF
 
 		$this->SetFont('Times','',8);
 
-		$this->Cell(340,10,utf8_decode('Última actualización: 01 de Diciembre de 2021'),0,0,'C');
+		$this->Cell(340,10,utf8_decode('Última actualización: 01 de Diciembre de 2021'),0,0,'C');	// Fecha designada
 	}
 
 }
@@ -52,7 +52,7 @@ $pdf->Cell(175,10,utf8_decode('MES: '),0,0,'C');
 
 while($month = mysqli_fetch_assoc($plen)) {
 	$pdf->SetFont('Times','BI',13);
-	$pdf->Cell(-130,10,$month['mes1'],0,0,'C');
+	$pdf->Cell(-130,10,$month['mes1'],0,0,'C');	// Se inserta el mes almacenado en la BBDD para mostrarlo en el PDF
 }
 
 // Ciclo que muestra a los PR registrados
@@ -912,7 +912,7 @@ $pdf->Cell(15,10,$t_pub_cr['pub_total_cr'],1,0,'C',1);
 $pdf->Cell(50,10,'------',1,0,'C',1);
 $pdf->Ln(20);
 
-$pdf->Output('I','INFORME DE SERVICIO MENSUAL DEL GRUPO 1.pdf');
+$pdf->Output('I','INFORME DE SERVICIO MENSUAL DEL GRUPO 1.pdf');	// Nombre por defecto con el que se descargará el PDF
 
 require '../../../../settings/close.php';
 

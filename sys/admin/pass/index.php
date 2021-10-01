@@ -6,7 +6,7 @@ if (isset($_SESSION['tipo'])) {
 
   switch ($_SESSION['tipo']) {
     case 'U':
-    echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
+    echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';	// Acceso prohibido a usuarios comunes
     break;
     
     default:
@@ -43,6 +43,8 @@ if (isset($_SESSION['usuario'])) {}
 	<?php include '../../../assets/layouts/header.php'; ?><br>
 
 	<span class="ir-arriba"><img class="flecha" src="https://th.bing.com/th/id/OIP.uKDR0QxG651E2BynzO95BQHaHa?w=193&h=193&c=7&o=5&pid=1.7"></span>
+
+<!-- Sección de botones de acceso al cambio de contraseña de usuarios -->
 
 	<div class="container pass">
 		<br><center><h2><strong>Elige el usuario al que se le cambiará la contraseña</strong></h2></center><br>

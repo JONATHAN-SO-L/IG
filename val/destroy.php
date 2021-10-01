@@ -1,8 +1,8 @@
 <?php
 
-session_start();
-session_unset();
-session_destroy();
-echo "<meta http-equiv='refresh' content='0; url=/ig/'>";
+session_start();	// Confirma la sesión iniciada
+session_unset();	// Vacía la caché de la sesión
+session_destroy();	// Cierra la sesión
+echo "<meta http-equiv='refresh' content='0; url=/ig/'>";	// Redirige al login
 
 ?>
