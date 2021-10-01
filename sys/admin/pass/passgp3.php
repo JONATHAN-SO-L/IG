@@ -8,10 +8,6 @@ if (isset($_SESSION['tipo'])) {
     case 'U':
     echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
     break;
-
-    case 'S':
-    echo '<meta HTTP-EQUIV="REFRESH" CONTENT="0;URL=/ig">';
-    break;
     
     default:
 
